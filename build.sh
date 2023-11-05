@@ -1,3 +1,3 @@
 set -xe
 
-gcc break.c -o break -Wall -Wextra
+gcc kwikbreak.c -o kwikbreak -Wall -Wextra
