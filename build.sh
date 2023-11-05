@@ -1,3 +1,3 @@
 set -xe
 
-gcc main.c -o main -Wall -Wextra
+gcc break.c -o break -Wall -Wextra
