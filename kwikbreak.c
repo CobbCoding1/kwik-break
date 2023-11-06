@@ -104,6 +104,7 @@ void print_chars(char *ascii_array[NUM_LENGTH], int number_of_chars, int char_in
         }
     }
     for(int i = 0; i < LINES; i++){
+        printf("            ");
         for(int index = 0; index < number_of_chars; index++){
             if(index == 2){
                 for(int j = 0; j < WIDTH; j++){
@@ -120,12 +121,13 @@ void print_chars(char *ascii_array[NUM_LENGTH], int number_of_chars, int char_in
 }
 
 void print_break(){
+    printf("\n\n\n\n");
     printf(
-        "####   #  #  ###  ####  #  #    ###   ####  ####  ####  #  #\n"
-        "#  #   #  #   #   #     # #     #  #  #  #  #     #  #  # # \n"
-        "#  #   #  #   #   #     ##      ###   ####  ###   ####  ##  \n"
-        "#  #   #  #   #   #     # #     #  #  # #   #     #  #  # # \n"
-        "#####  ####  ###  ####  #  #    ###   #  #  ####  #  #  #  #\n"
+        "           ####   #  #  ###  ####  #  #    ###   ####  ####  ####  #  #\n"
+        "           #  #   #  #   #   #     # #     #  #  #  #  #     #  #  # # \n"
+        "           #  #   #  #   #   #     ##      ###   ####  ###   ####  ##  \n"
+        "           #  #   #  #   #   #     # #     #  #  # #   #     #  #  # # \n"
+        "           #####  ####  ###  ####  #  #    ###   #  #  ####  #  #  #  #\n"
     );
     printf("\n\n\n");
 }
